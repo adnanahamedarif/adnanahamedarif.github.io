@@ -183,6 +183,7 @@ img {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
+  
 }
 .home__data {
   align-self: center;
@@ -254,7 +255,7 @@ img {
 /*section three start*/
 .section3{
   width: 100%;
-  height: 850px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -265,13 +266,13 @@ img {
   }
   
   .half1{
-      margin-left: 230px;
+      margin-left: 450px;
       margin-bottom: 120px;
   }
   .half2{
       padding-right: 100px;
       margin-top: 20px;
-      text-align: center;
+      text-align: right;
   }
   
   .half2 img{
@@ -281,13 +282,13 @@ img {
   .half1 h1{
     
       row-gap: 2rem;
-      text-align: center;
+      text-align: left;
     
   }
   .half1 p{
-      color:rgba(0, 0, 0, 0.7);
-      font-size: 20px;
-      text-justify: auto;
+      color:rgb(0, 0, 0);
+      font-size: 15px;
+      justify-self: center;
   }
 
 
